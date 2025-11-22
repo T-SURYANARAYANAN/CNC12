@@ -16,7 +16,10 @@ ________________________________________<br>
 • Copper straight-through and serial DCE/DTE cables<br>
 ________________________________________<br>
 # Network Topology Diagram
+<img width="1919" height="1056" alt="image" src="https://github.com/user-attachments/assets/857895dd-6bf1-4c8a-8845-8cf55132ee00" />
+
 (Insert your Packet Tracer screenshot showing R1 ↔ R2 ↔ R3 with PCs PC1–PC4 connected.)<br>
+
 ________________________________________<br>
 Addressing Table<br>
 Device	Interface	IPv4 Address / Subnet Mask	IPv6 Address / Prefix	Default Gateway<br>
@@ -119,8 +122,17 @@ show ipv6 interface brief	Verify IPv6 interface status<br>
 ________________________________________
 # Output (Attach Screenshots)
 • Command outputs (ipconfig, ipv6config, ping, tracert) for PCs.<br>
+<img width="1915" height="1199" alt="image" src="https://github.com/user-attachments/assets/e33b43cf-be02-4168-909a-3c9e79031dda" />
+
 • Router interface and routing tables.<br>
+<img width="1911" height="1055" alt="image" src="https://github.com/user-attachments/assets/1f22dc69-aa61-4055-9439-d5ee36f12784" />
+<img width="1919" height="1043" alt="image" src="https://github.com/user-attachments/assets/123e476c-0f77-434a-9591-a28660dea49d" />
+<img width="1919" height="1058" alt="image" src="https://github.com/user-attachments/assets/8de67d47-a89b-48f3-b67a-5f304f699efa" />
+
 • Successful ping results after fixes.<br>
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/dc04b6d4-74aa-498b-a4ea-b404cb10f65a" />
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/580cbcd9-9c43-4cab-8089-1dba9913fce2" />
+
 ________________________________________<br>
 # Result
 IPv4 and IPv6 connectivity issues were diagnosed and resolved using ping and tracert commands. Routers and PCs achieved full dual-stack communication after correcting configuration errors, confirming network restoration and routing accuracy.<br>
